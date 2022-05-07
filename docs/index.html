@@ -1,41 +1,178 @@
 <!-- @format -->
-
 <!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="p-f"
-      content="https://drive.google.com/uc?id=1rHfjaUorXIUIyouRV02en0KJj7XGHpZ9"
-    />
-    <title>p-f-webdemo02</title>
-  </head>
-  <body>
-    <h1>p-f-webdemo02</h1>
-    <a href="./2022-04-13_simple/index.html"><p>2022-04-13_simple</p></a>
-    <a href="./2022-04-13_URP_CompressionGzip/index.html">
-      <p>2022-04-13_URP_CompressionGzip</p>
-    </a>
-    <a href="./2022-04-13_URP_CompressionBrotli/index.html">
-      <p>2022-04-13_URP_CompressionBrotli</p>
-    </a>
-    <a href="./2022-04-13_URP_CompressionDisabled/index.html">
-      <p>2022-04-13_URP_CompressionDisabled</p>
-    </a>
-    <a href="./2022-04-14_test_iframe00/index.html">
-      <p>2022-04-14_test_iframe00</p>
-    </a>
-    <a href="./2022-04-14_URP_CompressionDisabled_onclick/index.html">
-      <p>2022-04-14_URP_CompressionDisabled_onclick</p>
-    </a>
-    <a href="./2022-04-22_PFCM/index.html">
-        <p>2022-04-22_PFCM</p>
-    </a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="p-f"
+        content="https://drive.google.com/uc?id=1rHfjaUorXIUIyouRV02en0KJj7XGHpZ9" />
+  <title>p-f-webdemo02 - Sample</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h1 {
+      font-size: 32px;
+    }
+    main {
+      margin: 48px 0 0 8px;
+      margin-left: 8px;
+    }
+    .list-c0 {
+    }
+    .list-c1 {
+      margin: 1em 0 3em 8px;
+      font-size: 80%;
+    }
+    .mdl-layout__header-row {
+      height: 40px;
+    }
+    .mdl-layout__header.is-compact {
+      max-height: 40px;
+      min-height: 40px;
+    }
+    .mdl-layout__drawer-button {
+      margin: 0px 12px;
+      height: 32px;
+      line-height: 48px;
+    }
+    .mdl-layout__tab-bar-container {
+      height: 32px;
+    }
+    .mdl-layout__tab {
+      height: 32px;
+      line-height: 32px;
+    }
+    .mdl-mini-footer {
+      padding: 0px;
+    }
+    .mdl-mini-footer__left-section {
+      margin: 0 auto;
+    }
+  </style>
+</head>
 
-    <h1>GitHub</h1>
-    <a href="https://github.com/p-f-media/p-f-webdemo02/tree/main/docs">
-        <p>https://github.com/p-f-media/p-f-webdemo02/tree/main/docs</p>
-    </a>
-  </body>
+<body>
+  <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+    <!-- Header -->
+    <header class="mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">p-f-webdemo02</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <div class="mdl-layout-spacer"></div>
+        <a href="./index.html#sample" class="mdl-layout__tab">Sample</a>
+        <a href="./index.html#test" class="mdl-layout__tab">Test</a>
+      </div>
+    </header>
+    <!-- Sidebar -->
+    <aside class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Link</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="https://vxv.co.jp/">vxv.co.jp</a>
+        <a class="mdl-navigation__link" href="https://p-f.media/">p-f.media</a>
+        <a class="mdl-navigation__link" href="https://github.com/p-f-media/p-f-webdemo02/tree/main/docs">GitHub p-f-webdemo02</a>
+      </nav>
+    </aside>
+    <dev class="mdl-layout__content">
+      <!-- Main -->
+      <main>
+        <article id="sample">
+          <h1>Sample.</h1>
+          <ul>
+            <li>
+              <span>
+                <a class="list-c0" " href="https://daijimomii.github.io/WebGlSample_WebXRExporter01/">WebGlSample_WebXRExporter01</a>
+                <p class="list-c1">アバターと3Dモデル出力のテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="https://daijimomii.github.io/WebGl_SkyDome_2021/">WebGl_SkyDome_2021</a>
+                <p class="list-c1">Skydomeテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-22_PFCM/index.html">2022-04-22_PFCM</a>
+                <p class="list-c1">
+                  ARテスト<br />
+                  下記画像を「ARテスト」アプリで読み込むと動画が流れる。<br />
+                  <a href="https://cdn.discordapp.com/attachments/824936846118879243/967004526269825074/2022-04-22_PFCM_lite_marker.png"><img src="https://cdn.discordapp.com/attachments/824936846118879243/967004526269825074/2022-04-22_PFCM_lite_marker.png" height="400" /></a>
+                </p>
+              </span>
+            </li>
+          </ul>
+        </article>
+
+        <article id="test">
+          <h1 id="test">Test.</h1>
+          <ul>
+            <li>
+              <span>
+                <a class="list-c0" " href="./2022-04-13_simple/index.html">2022-04-13_simple</a>
+                <p class="list-c1">GitHubPagesで文字表示のテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-13_URP_CompressionGzip/index.html">2022-04-13_URP_CompressionGzip</a>
+                <p class="list-c1">URP、CompressionGzipのテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-13_URP_CompressionBrotli/index.html">2022-04-13_URP_CompressionBrotli</a>
+                <p class="list-c1">URP、CompressionBrotliのテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-13_URP_CompressionDisabled/index.html">2022-04-13_URP_CompressionDisabled</a>
+                <p class="list-c1">URP、CompressionDisabledのテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-14_test_iframe00/index.html">2022-04-14_test_iframe00</a>
+                <p class="list-c1">URP、CompressionDisabledのテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-14_URP_CompressionDisabled_onclick/index.html">2022-04-14_URP_CompressionDisabled_onclick</a>
+                <p class="list-c1">最初に1枚絵を表示して、クリックしてから読み込みをスタートさせるテスト</p>
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <a class="list-c0" href="./2022-04-22_PFCM/index.html">2022-04-22_PFCM</a>
+                <p class="list-c1">ARのテスト</p>
+                <a href="https://cdn.discordapp.com/attachments/824936846118879243/967004526269825074/2022-04-22_PFCM_lite_marker.png"><img src="https://cdn.discordapp.com/attachments/824936846118879243/967004526269825074/2022-04-22_PFCM_lite_marker.png" height="400" /></a>
+              </span>
+            </li>
+          </ul>
+        </article>
+      </main>
+      <!-- Footer -->
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <ul class="mdl-mini-footer__link-list">
+            <li>©<a href="https://www.vxv.co.jp/">V Cross Vision Co. Ltd.</a> All right reserved.</li>
+          </ul>
+        </div>
+      </footer>
+    </dev>
+  </div>
+</body>
 </html>
